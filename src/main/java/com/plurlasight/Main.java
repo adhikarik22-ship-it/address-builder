@@ -30,11 +30,11 @@ public class Main {
         String shippingZip = scanner.nextLine();
         output.append(shippingZip).append("\n");
 
+        // display of the customer info.
 
+        System.out.println("\nDisplay the customer information\n");
 
-
-
-
+        System.out.println(output.toString());
 
     }
 }

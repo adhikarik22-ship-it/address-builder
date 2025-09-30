@@ -18,6 +18,20 @@ public class Main {
         String billingStreet= scanner.nextLine();
         output.append("billing address:\n").append(billingStreet). append("\n");
 
+        System.out.println("Shipping city; ");
+        String shippingCity= scanner.nextLine();
+        output.append(shippingCity).append(", ");
+
+        System.out.println("shipping state: ");
+        String shippingState = scanner.nextLine();
+        output.append(shippingState).append(" ");
+
+        System.out.println("shipping zip: ");
+        String shippingZip = scanner.nextLine();
+        output.append(shippingZip).append("\n");
+
+
+
 
 
 

@@ -35,6 +35,21 @@ public class Main {
 
         // shipping
 
+        System.out.println("Shipping street");
+        String shippingStreet= scanner.nextLine();
+        output.append("shipping address:\n").append(shippingStreet). append("\n");
+
+        System.out.println("shipping city; ");
+        String shippingCity= scanner.nextLine();
+        output.append(shippingCity).append(", ");
+
+        System.out.println("shipping state: ");
+        String shippingState = scanner.nextLine();
+        output.append(shippingState).append(" ");
+
+        System.out.println("shipping zip: ");
+        String shippingZip = scanner.nextLine();
+        output.append(shippingZip).append("\n");
 
 
         // display of the customer info.
@@ -42,7 +57,6 @@ public class Main {
         System.out.println("\nDisplay the customer information\n");
 
         System.out.println(output.toString());
-
 
     }
 }
